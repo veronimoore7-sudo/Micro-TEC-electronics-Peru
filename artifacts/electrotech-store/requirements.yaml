@@ -1,0 +1,17 @@
+packages:
+  "framer-motion": "For high-quality page transitions, scroll animations, and hero effects."
+  "react-hook-form": "For robust form state management."
+  "@hookform/resolvers": "For integrating Zod validation with React Hook Form."
+  "zod": "For form validation schemas."
+  "clsx": "Utility for constructing className strings conditionally."
+  "tailwind-merge": "Utility to merge Tailwind classes without style conflicts."
+
+images:
+  - path: "artifacts/electrotech-store/public/images/tech-grid.png"
+    description: "Abstract dark background with glowing cyan and blue circuit board lines, subtle tech grid pattern, deeply atmospheric and futuristic."
+    aspect_ratio: "16:9"
+
+notes:
+  - Frontend-only application, all form submissions will simulate network delay and use local state/toasts.
+  - Smooth scrolling implemented natively via CSS.
+  - Lead capture popup uses localStorage to ensure it only shows once per user.

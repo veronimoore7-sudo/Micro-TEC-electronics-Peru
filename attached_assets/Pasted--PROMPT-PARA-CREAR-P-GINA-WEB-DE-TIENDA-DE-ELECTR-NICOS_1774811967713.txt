@@ -1,0 +1,187 @@
+# PROMPT PARA CREAR PÁGINA WEB DE TIENDA DE ELECTRÓNICOS
+
+## 🧠 CONTEXTO DEL NEGOCIO
+
+Tengo una tienda física de electrónicos con más de 5 años de experiencia. Me especializo en:
+
+* Venta de dispositivos electrónicos (celulares, accesorios, gadgets)
+* Reparación de equipos (celulares, tablets, otros dispositivos)
+* Venta de accesorios y adornos para celulares
+
+Ahora quiero crear mi **primera página web profesional**, moderna y atractiva, que me permita vender, captar clientes y gestionar servicios.
+
+---
+
+## 🎯 OBJETIVO DE LA WEB
+
+Crear una página web moderna, visualmente atractiva, fácil de usar y optimizada para ventas, que incluya:
+
+1. Mostrar todos mis productos
+2. Permitir agendar citas para reparaciones
+3. Incluir una encuesta inicial para conocer al cliente
+4. Generar confianza (experiencia + testimonios)
+5. Facilitar contacto rápido (WhatsApp u otros medios)
+
+---
+
+## 🎨 DISEÑO Y ESTILO
+
+* Estilo moderno, limpio y tecnológico
+* Colores recomendados: negro, azul eléctrico, blanco (o similares tecnológicos)
+* Diseño responsive (adaptado a celular y computadora)
+* Animaciones suaves y elegantes
+* Íconos tecnológicos y visuales atractivos
+
+---
+
+## 🧩 ESTRUCTURA DE LA PÁGINA
+
+### 1. 🏠 INICIO (Landing Page)
+
+* Banner principal con frase llamativa:
+
+  > “Reparamos, vendemos y potenciamos tu tecnología”
+* Botones visibles:
+
+  * “Ver productos”
+  * “Agendar reparación”
+* Imagen o video moderno de tecnología
+* Beneficios:
+
+  * +5 años de experiencia
+  * Servicio rápido
+  * Garantía en reparaciones
+
+---
+
+### 2. 📊 ENCUESTA INICIAL (Lead Capture)
+
+Mostrar un formulario tipo encuesta al entrar o como popup:
+
+Preguntas:
+
+* ¿Qué necesitas hoy?
+
+  * Comprar producto
+  * Reparar dispositivo
+  * Solo consultar
+* ¿Qué dispositivo tienes?
+* ¿Qué problema presenta? (si aplica)
+* ¿Presupuesto aproximado?
+
+Objetivo: personalizar experiencia y captar clientes
+
+---
+
+### 3. 🛍️ TIENDA / PRODUCTOS
+
+Mostrar catálogo completo con:
+
+* Categorías:
+
+  * Celulares
+  * Accesorios
+  * Audífonos
+  * Cargadores
+  * Adornos y gadgets
+* Cada producto debe tener:
+
+  * Imagen clara
+  * Precio
+  * Descripción corta
+  * Botón: “Comprar” o “Consultar por WhatsApp”
+
+---
+
+### 4. 🔧 SERVICIO TÉCNICO (REPARACIONES)
+
+Sección clara con:
+
+* Tipos de reparación:
+
+  * Pantallas
+  * Baterías
+  * Software
+  * Otros
+* Beneficios:
+
+  * Diagnóstico rápido
+  * Técnicos con experiencia
+  * Garantía
+
+---
+
+### 5. 📅 AGENDAR CITA
+
+Sistema para que el cliente pueda:
+
+* Elegir fecha
+* Elegir hora
+* Seleccionar tipo de servicio
+* Ingresar datos de contacto
+
+Botón final:
+👉 “Agendar reparación”
+
+---
+
+### 6. ⭐ TESTIMONIOS
+
+Mostrar opiniones de clientes:
+
+* Fotos (opcional)
+* Comentarios reales
+* Calificación (⭐⭐⭐⭐⭐)
+
+---
+
+### 7. 📞 CONTACTO RÁPIDO
+
+* Botón flotante de WhatsApp
+* Número de contacto
+* Dirección del local físico
+* Mapa integrado
+
+---
+
+## ⚙️ FUNCIONALIDADES CLAVE
+
+* Integración con WhatsApp
+* Formulario de contacto
+* Sistema de citas
+* Filtros de productos
+* Carga rápida
+* Optimización SEO básica
+
+---
+
+## 💡 MENSAJE DE MARCA
+
+La página debe transmitir:
+
+* Confianza
+* Experiencia
+* Rapidez
+* Tecnología moderna
+* Atención personalizada
+
+---
+
+## 🧲 FRASES CLAVE PARA USAR
+
+* “Tu tecnología en las mejores manos”
+* “Reparamos como si fuera nuestro”
+* “Calidad, rapidez y confianza”
+* “Todo lo que tu dispositivo necesita”
+
+---
+
+## 🔥 OBJETIVO FINAL
+
+Convertir visitantes en clientes, aumentar ventas y posicionar el negocio como una tienda confiable y moderna en el mundo digital.
+
+---
+
+## 🧑‍💻 INSTRUCCIÓN FINAL
+
+Crear una página web completa basada en este prompt, con diseño moderno, enfoque en ventas, experiencia de usuario fluida y herramientas de conversión (encuesta + citas + contacto rápido).

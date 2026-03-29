@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "ElectroTech Store"
+version = "1.0.0"
+id = "artifacts/electrotech-store"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22506
+
+[services.development]
+run = "pnpm --filter @workspace/electrotech-store run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/electrotech-store", "run", "build" ]
+publicDir = "artifacts/electrotech-store/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22506"
+BASE_PATH = "/"
