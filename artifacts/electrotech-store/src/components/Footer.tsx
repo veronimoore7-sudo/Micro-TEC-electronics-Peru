@@ -55,9 +55,6 @@ export function Footer() {
           <p className="text-muted-foreground text-sm text-center md:text-left">
             &copy; {new Date().getFullYear()} MicroTech. Todos los derechos reservados.
           </p>
-          <p className="text-muted-foreground text-sm flex items-center">
-            Diseñado con <span className="text-red-500 mx-1">❤</span> para amantes de la tecnología.
-          </p>
         </div>
       </div>
     </footer>
