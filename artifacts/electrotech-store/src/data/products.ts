@@ -1,6 +1,6 @@
 import { Smartphone, Headphones, BatteryCharging, Cable, Monitor } from "lucide-react";
 
-export const CATEGORIES = ["Todos", "Celulares", "Accesorios", "Audio", "Energía", "Cables", "Cargadores", "Soportes"];
+export const CATEGORIES = ["Todos", "Celulares", "Accesorios", "Audífonos", "Parlantes", "Cables", "Cargadores", "Soportes"];
 
 export const PRODUCTS = [
   {
@@ -42,7 +42,7 @@ export const PRODUCTS = [
     name: "AirPods Pro 2",
     price: 199,
     desc: "Cancelación de ruido",
-    cat: "Audio",
+    cat: "Audífonos",
     icon: Headphones,
     fullDescription: `Los AirPods Pro de segunda generación llevan el audio a otro nivel. Con cancelación activa de ruido hasta 2 veces más potente que la generación anterior y audio espacial personalizado, te sumergirás en tu música como nunca antes.\n\n**Características principales:**\n- Cancelación activa de ruido mejorada (2x más potente)\n- Audio Espacial Personalizado con seguimiento dinámico de cabeza\n- Chip H2 para audio de alta fidelidad\n- Hasta 6h de audio con una sola carga (30h con el estuche)\n- Resistencia al sudor y agua IPX4\n- Estuche con altavoz integrado y bucle para mosquetón\n- Compatible con Apple Watch para localización\n\nIncluye: AirPods Pro (x2), Estuche de carga MagSafe, Cable USB-C, Puntas de silicona (S/M/L/XL).`,
     specs: [
@@ -76,7 +76,7 @@ export const PRODUCTS = [
     name: "Cargador Anker 65W",
     price: 35,
     desc: "GaN technology ultra",
-    cat: "Energía",
+    cat: "Parlantes",
     icon: BatteryCharging,
     fullDescription: `El cargador Anker 65W con tecnología GaN (Nitruro de Galio) es hasta un 40% más compacto que los cargadores tradicionales, sin sacrificar potencia. Carga hasta 3 dispositivos simultáneamente.\n\n**Características principales:**\n- Potencia total: 65W\n- 2 puertos USB-C + 1 puerto USB-A\n- Tecnología GaN: más compacto y eficiente\n- Compatible con Power Delivery 3.0 y Quick Charge 3.0\n- Protección contra sobrecalentamiento, sobrevoltaje y cortocircuito\n- Carga un MacBook Air en ~1.5 horas\n- Carga un iPhone en ~1 hora\n- Plegable y ultra compacto para viajes\n\nIncluy: Cargador Anker 65W GaN. Garantía Anker de 18 meses.`,
     specs: [
@@ -110,7 +110,7 @@ export const PRODUCTS = [
     name: "Samsung Buds2 Pro",
     price: 149,
     desc: "Hi-Fi audio inmersivo",
-    cat: "Audio",
+    cat: "Audífonos",
     icon: Headphones,
     fullDescription: `Los Samsung Galaxy Buds2 Pro ofrecen el mejor audio inalámbrico de Samsung con sonido Hi-Fi de 24 bits, cancelación inteligente de ruido y audio 360 que se adapta a los movimientos de tu cabeza.\n\n**Características principales:**\n- Audio Hi-Fi de 24 bits con Bluetooth LE Audio\n- Cancelación activa de ruido inteligente (ANC)\n- Audio 360 con seguimiento de cabeza\n- Batería: hasta 5h (auriculares) + 18h con estuche\n- Resistencia al agua IPX7 (auriculares) / IPX2 (estuche)\n- Detección automática al ponérselos/quitárselos\n- Llamadas con reducción de ruido vocal\n- Diseño ergonómico y ligero (5.5g por auricular)\n\nIncluye: Buds2 Pro (x2), Estuche de carga, Cable USB-C, Almohadillas (S/M/L).`,
     specs: [
@@ -127,7 +127,7 @@ export const PRODUCTS = [
     name: "Power Bank 20000mAh",
     price: 45,
     desc: "Carga inalámbrica Magsafe",
-    cat: "Energía",
+    cat: "Parlantes",
     icon: BatteryCharging,
     fullDescription: `Power Bank de 20000mAh con carga inalámbrica compatible con MagSafe para iPhone y carga rápida por cable para todos tus dispositivos. Ideal para viajes largos o días fuera de casa.\n\n**Características principales:**\n- Capacidad: 20000mAh (puede cargar un iPhone ~4-5 veces)\n- Carga inalámbrica Qi/MagSafe: 15W\n- Puerto USB-C entrada/salida: 65W (carga rápida)\n- Puerto USB-A: 18W (Quick Charge)\n- Pantalla LED con indicador de carga exacto\n- Puede cargar y recargarse simultáneamente (pass-through)\n- Protección: sobrecalentamiento, sobrevoltaje, cortocircuito\n- Peso: 380g | Material: aluminio + plástico ABS\n\nIncluye: Power Bank, Cable USB-C, Bolsa de transporte.`,
     specs: [
