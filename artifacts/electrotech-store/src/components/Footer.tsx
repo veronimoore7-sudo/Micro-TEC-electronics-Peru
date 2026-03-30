@@ -11,7 +11,7 @@ export function Footer() {
                 <Cpu className="w-6 h-6 text-primary" />
               </div>
               <span className="font-display font-bold text-2xl tracking-tight text-white">
-                Electro<span className="text-primary">Tech</span>
+                Micro<span className="text-primary"> TEC</span>
               </span>
             </div>
             <p className="text-muted-foreground max-w-sm mb-6">
@@ -53,7 +53,7 @@ export function Footer() {
         
         <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm text-center md:text-left">
-            &copy; {new Date().getFullYear()} ElectroTech. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} MicroTech. Todos los derechos reservados.
           </p>
           <p className="text-muted-foreground text-sm flex items-center">
             Diseñado con <span className="text-red-500 mx-1">❤</span> para amantes de la tecnología.
