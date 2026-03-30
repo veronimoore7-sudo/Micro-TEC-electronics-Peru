@@ -58,7 +58,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-bold mb-1">Teléfono Directo</h4>
-                  <p className="text-muted-foreground">+1 (234) 567-8900</p>
+                  <p className="text-muted-foreground">+51 999 770 175</p>
                 </div>
               </div>
               
@@ -94,7 +94,7 @@ export function Contact() {
                   <Button type="submit" className="flex-1 bg-white text-black hover:bg-gray-200" disabled={mutation.isPending}>
                     {mutation.isPending ? "Enviando..." : "Enviar Mensaje"}
                   </Button>
-                  <a href="https://wa.me/1234567890?text=Hola,%20tengo%20una%20consulta" target="_blank" rel="noreferrer" className="flex-1">
+                  <a href="https://wa.me/51999770175?text=Hola,%20tengo%20una%20consulta" target="_blank" rel="noreferrer" className="flex-1">
                     <Button type="button" className="w-full bg-[#25D366] hover:bg-[#20b858] text-white">
                       <MessageSquare className="w-4 h-4 mr-2" /> WhatsApp
                     </Button>
