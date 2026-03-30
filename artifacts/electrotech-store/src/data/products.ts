@@ -1,6 +1,6 @@
-import { Smartphone, Headphones, BatteryCharging } from "lucide-react";
+import { Smartphone, Headphones, BatteryCharging, Cable, Monitor } from "lucide-react";
 
-export const CATEGORIES = ["Todos", "Celulares", "Accesorios", "Audio", "Energía"];
+export const CATEGORIES = ["Todos", "Celulares", "Accesorios", "Audio", "Energía", "Cables", "Cargadores", "Soportes"];
 
 export const PRODUCTS = [
   {
@@ -137,6 +137,57 @@ export const PRODUCTS = [
       { label: "USB-A", value: "18W Quick Charge" },
       { label: "Pass-through", value: "Sí" },
       { label: "Peso", value: "380g" },
+    ],
+  },
+  {
+    id: 9,
+    name: "Cable HDMI 4K Ultra HD",
+    price: 18,
+    desc: "4K@60Hz, 2 metros, sin lag",
+    cat: "Cables",
+    icon: Cable,
+    fullDescription: `Cable HDMI 2.0 de alta velocidad con soporte para resolución 4K a 60Hz y HDR. Construido con conectores bañados en oro para máxima conductividad y durabilidad.\n\n**Características principales:**\n- Resolución soportada: hasta 4K (3840x2160) a 60Hz\n- Compatible con HDR, Dolby Vision y eARC\n- Audio: hasta 32 canales, Dolby Atmos\n- Conectores bañados en oro de 24 quilates\n- Cable blindado con malla de nylon trenzado\n- Longitud: 2 metros\n- Compatible con: TV, monitores, proyectores, PS5, Xbox, PC\n\nGarantía de 12 meses.`,
+    specs: [
+      { label: "Versión HDMI", value: "2.0" },
+      { label: "Resolución", value: "4K@60Hz / 1080p@144Hz" },
+      { label: "HDR", value: "Sí (HDR10, Dolby Vision)" },
+      { label: "Longitud", value: "2 metros" },
+      { label: "Conectores", value: "Bañados en oro 24K" },
+      { label: "Garantía", value: "12 meses" },
+    ],
+  },
+  {
+    id: 10,
+    name: "Cargador Inalámbrico 15W",
+    price: 28,
+    desc: "Qi y MagSafe, carga ultra rápida",
+    cat: "Cargadores",
+    icon: BatteryCharging,
+    fullDescription: `Cargador inalámbrico de 15W compatible con MagSafe para iPhone y Qi para Android. Su diseño delgado y minimalista se adapta a cualquier escritorio o mesita de noche.\n\n**Características principales:**\n- Potencia máxima: 15W (MagSafe) / 10W (Qi rápido)\n- Compatible con iPhone 12/13/14/15 y Android Qi\n- LED indicador de carga integrado\n- Protección contra sobrecalentamiento y sobrevoltaje\n- Material: aluminio anodizado + base antideslizante\n- Superficie de carga amplia de 10cm\n- Cable USB-C incluido (1.5m)\n\nIncluye: Cargador inalámbrico, Cable USB-C. Garantía 12 meses.`,
+    specs: [
+      { label: "Potencia máxima", value: "15W (MagSafe)" },
+      { label: "Potencia Qi", value: "10W rápido / 5W estándar" },
+      { label: "Compatibilidad", value: "MagSafe + Qi universal" },
+      { label: "Entrada", value: "USB-C 5V/3A" },
+      { label: "Material", value: "Aluminio + base antideslizante" },
+      { label: "Garantía", value: "12 meses" },
+    ],
+  },
+  {
+    id: 11,
+    name: "Soporte para Laptop",
+    price: 32,
+    desc: "Ergonómico, aluminio, ajustable",
+    cat: "Soportes",
+    icon: Monitor,
+    fullDescription: `Soporte ergonómico para laptop fabricado en aluminio de aviación. Eleva la pantalla a la altura ideal para reducir el dolor de cuello y mejorar tu postura durante largas jornadas de trabajo.\n\n**Características principales:**\n- Material: aluminio de aviación 6061 (resistente y ligero)\n- 6 niveles de altura ajustable (10cm a 20cm)\n- Compatible con laptops de 10" a 17"\n- Peso máximo soportado: 10 kg\n- Base antideslizante con almohadillas de silicona\n- Diseño plegable y ultraportátil (solo 380g)\n- Ventilación inferior para mantener la laptop fresca\n- Incluye bolsa de transporte de tela\n\nGarantía 12 meses.`,
+    specs: [
+      { label: "Material", value: "Aluminio de aviación 6061" },
+      { label: "Compatibilidad", value: "Laptops 10\" a 17\"" },
+      { label: "Altura ajustable", value: "6 niveles (10–20 cm)" },
+      { label: "Peso máximo", value: "10 kg" },
+      { label: "Peso del soporte", value: "380g" },
+      { label: "Portabilidad", value: "Plegable con bolsa incluida" },
     ],
   },
 ];
