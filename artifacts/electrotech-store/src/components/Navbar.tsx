@@ -38,7 +38,7 @@ export function Navbar() {
               <Cpu className="w-6 h-6 text-primary" />
             </div>
             <span className="font-display font-bold text-xl tracking-tight text-white">
-              Micro<span className="text-primary"> tec</span>
+              Micro<span className="text-primary"> TEC</span>
             </span>
           </Link>
 
