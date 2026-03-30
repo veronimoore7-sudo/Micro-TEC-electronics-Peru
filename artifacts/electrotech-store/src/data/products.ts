@@ -9,6 +9,7 @@ export const PRODUCTS = [
     price: 68,
     desc: "Carga rápida 40W, marca LDNIO",
     cat: "Cargadores",
+    image: "/images/cargador-ldnio-40w.png",
     icon: BatteryCharging,
     fullDescription: `Cargador Tipo C de gama media marca LDNIO con potencia de 40W para carga rápida. Compatible con la mayoría de smartphones Android e iPhone con cable USB-C. Diseño compacto y seguro para uso diario.\n\n**Características principales:**\n- Potencia de salida: 40W carga rápida\n- Puerto: USB-C\n- Compatible con: Samsung, Xiaomi, OPPO, Huawei, iPhone y más\n- Tecnología de protección: sobrevoltaje, sobrecalentamiento y cortocircuito\n- Diseño compacto y ligero para viajes\n- Certificación CE y FCC\n- Marca: LDNIO (garantía de calidad)\n\nIncluye: Cargador LDNIO 40W. Garantía 6 meses.`,
     specs: [

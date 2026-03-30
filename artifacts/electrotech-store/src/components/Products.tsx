@@ -58,10 +58,18 @@ export function Products() {
                   {/* Clickable image area */}
                   <button
                     onClick={() => navigate(`/producto/${product.id}`)}
-                    className="aspect-square bg-gradient-to-br from-secondary to-background p-8 flex items-center justify-center relative overflow-hidden w-full text-left"
+                    className="aspect-square bg-gradient-to-br from-secondary to-background flex items-center justify-center relative overflow-hidden w-full text-left"
                   >
                     <div className="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity" />
-                    <Icon className="w-24 h-24 text-muted-foreground group-hover:text-primary transition-colors" />
+                    {product.image ? (
+                      <img
+                        src={product.image}
+                        alt={product.name}
+                        className="w-full h-full object-contain p-4"
+                      />
+                    ) : (
+                      <Icon className="w-24 h-24 text-muted-foreground group-hover:text-primary transition-colors" />
+                    )}
                     <div className="absolute bottom-3 right-3 bg-primary/10 text-primary text-xs font-medium px-2.5 py-1 rounded-full border border-primary/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center gap-1">
                       Ver más <ArrowRight className="w-3 h-3" />
                     </div>

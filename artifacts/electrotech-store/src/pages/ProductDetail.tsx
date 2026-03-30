@@ -60,10 +60,18 @@ export default function ProductDetail() {
           >
             <div className="aspect-square bg-gradient-to-br from-secondary to-background rounded-3xl border border-border/50 flex items-center justify-center relative overflow-hidden shadow-2xl">
               <div className="absolute inset-0 bg-primary/5" />
-              <div className="absolute top-4 right-4 bg-primary/10 text-primary text-xs font-semibold px-3 py-1.5 rounded-full border border-primary/20">
+              <div className="absolute top-4 right-4 bg-primary/10 text-primary text-xs font-semibold px-3 py-1.5 rounded-full border border-primary/20 z-10">
                 {product.cat}
               </div>
-              <Icon className="w-40 h-40 text-primary opacity-80" />
+              {product.image ? (
+                <img
+                  src={product.image}
+                  alt={product.name}
+                  className="w-full h-full object-contain p-8"
+                />
+              ) : (
+                <Icon className="w-40 h-40 text-primary opacity-80" />
+              )}
             </div>
 
             {/* Trust badges */}
