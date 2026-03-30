@@ -38,7 +38,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-bold mb-1">Ubicación</h4>
-                  <p className="text-muted-foreground">Calle Principal 123, Edificio Tech<br/>Ciudad Central, CP 1000</p>
+                  <p className="text-muted-foreground">Avenida Carlos Alberto Izaquierre<br/>Lima, 15109, Perú</p>
                 </div>
               </div>
               
@@ -48,7 +48,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-bold mb-1">Horario de Atención</h4>
-                  <p className="text-muted-foreground">Lunes a Sábado: 9:00 AM - 7:00 PM<br/>Domingos: Cerrado</p>
+                  <p className="text-muted-foreground">Lunes a Sábado: 9:00 AM - 8:00 PM<br/>Domingos: Cerrado</p>
                 </div>
               </div>
               
