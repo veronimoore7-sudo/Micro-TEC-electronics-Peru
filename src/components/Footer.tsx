@@ -1,4 +1,4 @@
-import { Cpu, Facebook, Instagram, Twitter } from "lucide-react";
+import { Cpu, Facebook as FacebookIcon, Instagram as InstagramIcon, Twitter as TwitterIcon } from "lucide-react";
 
 export function Footer() {
   return (
