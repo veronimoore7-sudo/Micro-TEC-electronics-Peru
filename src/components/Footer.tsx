@@ -1,4 +1,4 @@
-import { Cpu, Facebook as FacebookIcon, Instagram as InstagramIcon, Twitter as TwitterIcon } from "lucide-react";
+import { Cpu, Globe, Instagram, Share2 } from "lucide-react";
 
 export function Footer() {
   return (
@@ -19,13 +19,13 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-white transition-colors">
-                <Facebook className="w-5 h-5" />
+                <Globe className="w-5 h-5" />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-white transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-white transition-colors">
-                <Twitter className="w-5 h-5" />
+                <Share2 className="w-5 h-5" />
               </a>
             </div>
           </div>
@@ -34,26 +34,23 @@ export function Footer() {
             <h4 className="text-white font-bold mb-6">Enlaces Rápidos</h4>
             <ul className="space-y-3">
               <li><a href="#inicio" className="text-muted-foreground hover:text-primary transition-colors">Inicio</a></li>
-              <li><a href="#productos" className="text-muted-foreground hover:text-primary transition-colors">Catálogo de Productos</a></li>
-              <li><a href="#reparaciones" className="text-muted-foreground hover:text-primary transition-colors">Servicios de Reparación</a></li>
-              <li><a href="#agendar" className="text-muted-foreground hover:text-primary transition-colors">Agendar Cita</a></li>
+              <li><a href="#productos" className="text-muted-foreground hover:text-primary transition-colors">Catálogo</a></li>
+              <li><a href="#reparaciones" className="text-muted-foreground hover:text-primary transition-colors">Servicios</a></li>
             </ul>
           </div>
           
           <div>
             <h4 className="text-white font-bold mb-6">Legal</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Términos y Condiciones</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Políticas de Privacidad</a></li>
+              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Privacidad</a></li>
               <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Garantías</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Reembolsos</a></li>
             </ul>
           </div>
         </div>
         
         <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm text-center md:text-left">
-            &copy; {new Date().getFullYear()} MicroTech. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Micro-TEC Perú.
           </p>
         </div>
       </div>
