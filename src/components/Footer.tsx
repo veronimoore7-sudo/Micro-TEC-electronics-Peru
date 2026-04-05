@@ -1,4 +1,4 @@
-import { Cpu, Globe, Instagram, Share2 } from "lucide-react";
+import { Cpu, Globe, Share2, MessageCircle } from "lucide-react";
 
 export function Footer() {
   return (
@@ -15,43 +15,15 @@ export function Footer() {
               </span>
             </div>
             <p className="text-muted-foreground max-w-sm mb-6">
-              Tu centro especializado de confianza para reparación y compra de tecnología. Calidad, rapidez y garantía en cada servicio.
+              Tu centro especializado de confianza para reparación y compra de tecnología.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-white transition-colors">
-                <Globe className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-white transition-colors">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-white transition-colors">
-                <Share2 className="w-5 h-5" />
-              </a>
+              {/* Usamos estos 3 iconos que SI existen siempre */}
+              <Globe className="w-5 h-5 text-muted-foreground hover:text-primary cursor-pointer" />
+              <Share2 className="w-5 h-5 text-muted-foreground hover:text-primary cursor-pointer" />
+              <MessageCircle className="w-5 h-5 text-muted-foreground hover:text-primary cursor-pointer" />
             </div>
           </div>
-          
-          <div>
-            <h4 className="text-white font-bold mb-6">Enlaces Rápidos</h4>
-            <ul className="space-y-3">
-              <li><a href="#inicio" className="text-muted-foreground hover:text-primary transition-colors">Inicio</a></li>
-              <li><a href="#productos" className="text-muted-foreground hover:text-primary transition-colors">Catálogo</a></li>
-              <li><a href="#reparaciones" className="text-muted-foreground hover:text-primary transition-colors">Servicios</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h4 className="text-white font-bold mb-6">Legal</h4>
-            <ul className="space-y-3">
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Privacidad</a></li>
-              <li><a href="#" className="text-muted-foreground hover:text-primary transition-colors">Garantías</a></li>
-            </ul>
-          </div>
-        </div>
-        
-        <div className="pt-8 border-t border-border flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-muted-foreground text-sm text-center md:text-left">
-            &copy; {new Date().getFullYear()} Micro-TEC Perú.
-          </p>
         </div>
       </div>
     </footer>
